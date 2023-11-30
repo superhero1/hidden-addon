@@ -1,6 +1,8 @@
-# Home Assistant Add-on: EnOcean to MQTT Bridge
+# Home Assistant Add-on: EnOcean to MQTT Bridge (Test support-eltako version)
 
 EnOcean to MQTT Bridge
+
+⚠️ This is the **support-eltako** version (follows the support-eltako branch) ⚠️
 
 ![Supports aarch64 Architecture][aarch64-shield] ![Supports amd64 Architecture][amd64-shield] ![Supports armhf Architecture][armhf-shield] ![Supports armv7 Architecture][armv7-shield] ![Supports i386 Architecture][i386-shield]
 
