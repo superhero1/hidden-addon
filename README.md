@@ -12,7 +12,7 @@ Test addon for testing Eltako support in HA_enoceanmqtt
 ## Configuration
 1. Click on **Configuration**
     - If you already have a previous valid configuration, click **⋮ → Edit as YAML** and paste your previously saved configuration. Otherwise, follow the instructions below.
-    - Adapt the [`addon/enoceanmqtt.devices.sample`](https://github.com/mak-gitdev/hidden-addon/blob/master/addon-test-eltako/enoceanmqtt.devices.sample) and put it to your Home Assistant **/config** directory. You can use the Home Assistant **File Editor**.  
+    - Adapt the [`addon-test-eltako/enoceanmqtt.devices.sample`](https://github.com/mak-gitdev/hidden-addon/blob/master/addon-test-eltako/enoceanmqtt.devices.sample) and put it to your Home Assistant **/config** directory. You can use the Home Assistant **File Editor**.  
      **Tip**: Your device name can contain `/` e.g. `[lights/livingroom]`. This allows you to group your devices by type when exploring MQTT messages.
     - Indicate the location of this device file under the **device_file** entry.
     - Leave empty the **mapping_file** entry to use the default mapping file. If you want to use a custom mapping file, indicate the location of your mapping file. This can be useful for people wanting to add support for new devices or customize the existing ones. Refer to this [wiki page](https://github.com/mak-gitdev/HA_enoceanmqtt/wiki/Examples#using-custom-mappingyaml-andor-eepxml-files) for more details.
@@ -46,10 +46,6 @@ Test addon for testing Eltako support in HA_enoceanmqtt
 
 ## Usage
 See [Usage](https://github.com/mak-gitdev/HA_enoceanmqtt/wiki/Usage) for more information.
-
-
-## Issues
-Issues should be reported on the HA\_enoceanmqtt [issue tracker](https://github.com/mak-gitdev/HA_enoceanmqtt/issues).
 
 
 ## Versions
