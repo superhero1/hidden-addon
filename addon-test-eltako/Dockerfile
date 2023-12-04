@@ -15,7 +15,7 @@ RUN apk add --no-cache python3 py3-pip git && \
     git clone https://github.com/embyt/enocean-mqtt.git && \
     cd enocean-mqtt && python3 setup.py develop && cd .. && \
     echo "Installing support-eltako branch" && \
-    git clone -b support-eltako --single-branch --depth 1 https://github.com/mak-gitdev/HA_enoceanmqtt.git ; \
+    git clone -b support-eltako --single-branch --depth 1 https://github.com/mak-gitdev/HA_enoceanmqtt.git && \
     cp -rf HA_enoceanmqtt/enoceanmqtt enocean-mqtt && \
     rm -rf HA_enoceanmqtt
 
