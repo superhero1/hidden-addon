@@ -1,7 +1,7 @@
 name: "EnOcean MQTT (Test Eltako)"
 description: "EnOcean to MQTT bridge for Home Assistant"
 url: "https://github.com/mak-gitdev/hidden-addon"
-version: "0.0.2"
+version: "0.0.3"
 slug: "ha_enoceanmqtt_eltako"
 stage: "experimental"
 init: false
