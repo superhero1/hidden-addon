@@ -1,5 +1,29 @@
-#======================================================================
-# From now, we define a single entry per FSB14
+# Define an FSB14 device
 [my_fsb14]
-address = 0x454C544B # The address of the FSB14
+address = 0x454C5400 # The address of the FSB14
 model = eltako/fsb14
+
+# Define an FSB61 device
+[my_fsb61]
+address = 0x454C5401 # The address of the FSB61
+model = eltako/fsb61
+
+# Define an FSR14 device
+[my_fsr14]
+address = 0x454C5402 # The address of the FSR14
+model = eltako/fsr14
+
+# Define an FSR61 device
+[my_fsr61]
+address = 0x454C5403 # The address of the FSR61
+model = eltako/fsr61
+
+# Define an FHD60SB device
+[my_fhd60sb]
+address = 0x454C5404 # The address of the FHD60SB
+model = eltako/fhd60sb
+
+# Define an FUD14 device
+[my_fud14]
+address = 0x454C5405 # The address of the FUD14
+model = eltako/fud14
