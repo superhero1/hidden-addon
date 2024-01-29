@@ -120,7 +120,7 @@ rm -f $LOG_FILE
 
 if ! bashio::config.is_empty 'eep_file'; then
    EEP_FILE="$(bashio::config 'eep_file')"
-   EEP_FILE_LOCATION=$(find / -name "EEP.xml" -print -quit 2>/dev/null)
+   EEP_FILE_LOCATION=$(find / -path /config -prune -o -name 'EEP.xml' -print -quit 2>/dev/null)
 
    if [ -e $EEP_FILE ]; then
       bashio::log.green "Installing custom EEP.xml ..."

@@ -1,5 +1,9 @@
 ## 0.0.10
 
+- Merge develop + Add FJ62, TF61L, TF61J, FDG14
+
+## 0.0.10
+
 - Fix `unknown sensor` when using `sender` with model
 
 ## 0.0.9
