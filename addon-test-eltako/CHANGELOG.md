@@ -1,4 +1,4 @@
-## 0.0.10
+## 0.0.11
 
 - Merge develop + Add FJ62, TF61L, TF61J, FDG14
 
